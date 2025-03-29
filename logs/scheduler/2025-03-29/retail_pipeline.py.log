@@ -1,0 +1,938 @@
+[2025-03-29T10:40:23.339+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:40:23.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:40:23.343+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:40:23.343+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:40:23.351+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:40:23.350+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:40:23.352+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:40:23.366+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.032 seconds
+[2025-03-29T10:40:53.702+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:40:53.703+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:40:53.707+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:40:53.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:40:53.718+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:40:53.715+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:40:53.718+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:40:53.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.063 seconds
+[2025-03-29T10:41:24.006+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:41:24.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:41:24.010+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:41:24.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:41:24.015+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:41:24.014+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:41:24.016+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:41:24.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.038 seconds
+[2025-03-29T10:41:54.358+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:41:54.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:41:54.364+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:41:54.363+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:41:54.372+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:41:54.370+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:41:54.373+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:41:54.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.048 seconds
+[2025-03-29T10:42:24.688+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:42:24.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:42:24.693+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:42:24.692+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:42:24.699+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:42:24.697+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:42:24.700+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:42:24.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.043 seconds
+[2025-03-29T10:42:55.021+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:42:55.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:42:55.025+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:42:55.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:42:55.029+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:42:55.028+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:42:55.030+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:42:55.046+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.035 seconds
+[2025-03-29T10:43:25.381+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:43:25.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:43:25.387+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:43:25.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:43:25.393+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:43:25.392+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:43:25.394+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:43:25.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.056 seconds
+[2025-03-29T10:43:55.776+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:43:55.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:43:55.780+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:43:55.780+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:43:55.786+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:43:55.785+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:43:55.787+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:43:55.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.038 seconds
+[2025-03-29T10:44:26.103+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:44:26.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:44:26.106+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:44:26.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:44:26.112+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:44:26.111+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:44:26.113+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:44:26.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.041 seconds
+[2025-03-29T10:44:56.456+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:44:56.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:44:56.460+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:44:56.460+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:44:56.468+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:44:56.466+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:44:56.468+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:44:56.491+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.047 seconds
+[2025-03-29T10:45:26.796+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:45:26.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:45:26.801+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:45:26.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:45:26.808+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:45:26.806+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:45:26.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:45:26.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.037 seconds
+[2025-03-29T10:45:57.183+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:45:57.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:45:57.188+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:45:57.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:45:57.199+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:45:57.197+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:45:57.200+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:45:57.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.063 seconds
+[2025-03-29T10:46:27.487+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:46:27.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:46:27.490+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:46:27.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:46:27.498+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:46:27.496+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:46:27.499+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:46:27.516+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.037 seconds
+[2025-03-29T10:46:57.883+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:46:57.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:46:57.888+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:46:57.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:46:57.895+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:46:57.893+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:46:57.895+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:46:57.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.044 seconds
+[2025-03-29T10:47:28.191+0000] {processor.py:186} INFO - Started process (PID=238) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:47:28.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:47:28.194+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:47:28.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:47:28.199+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:47:28.198+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:47:28.200+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:47:28.218+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.035 seconds
+[2025-03-29T10:47:58.547+0000] {processor.py:186} INFO - Started process (PID=243) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:47:58.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:47:58.552+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:47:58.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:47:58.559+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:47:58.557+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:47:58.559+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:47:58.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.058 seconds
+[2025-03-29T10:48:28.958+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:48:28.959+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:48:28.963+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:48:28.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:48:28.970+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:48:28.968+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:48:28.970+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:48:28.990+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.045 seconds
+[2025-03-29T10:48:59.318+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:48:59.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:48:59.324+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:48:59.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:48:59.331+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:48:59.329+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:48:59.332+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:48:59.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.048 seconds
+[2025-03-29T10:49:28.614+0000] {processor.py:186} INFO - Started process (PID=258) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:49:28.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:49:28.617+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:49:28.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:49:28.626+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:49:28.625+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:49:28.627+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:49:28.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.038 seconds
+[2025-03-29T10:49:59.096+0000] {processor.py:186} INFO - Started process (PID=263) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:49:59.097+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:49:59.101+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:49:59.100+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:49:59.109+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:49:59.108+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:49:59.110+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:49:59.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.048 seconds
+[2025-03-29T10:50:29.425+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:50:29.426+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:50:29.430+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:50:29.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:50:29.435+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:50:29.434+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:50:29.435+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:50:29.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.042 seconds
+[2025-03-29T10:50:59.812+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:50:59.813+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:50:59.817+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:50:59.817+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:50:59.824+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:50:59.822+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:50:59.824+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:50:59.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.043 seconds
+[2025-03-29T10:53:04.529+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:53:04.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:53:04.533+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:53:04.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:53:04.536+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:53:04.535+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:53:04.537+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:53:04.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.023 seconds
+[2025-03-29T10:53:34.801+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:53:34.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:53:34.805+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:53:34.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:53:34.811+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:53:34.810+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:53:34.812+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:53:34.833+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.044 seconds
+[2025-03-29T10:54:05.105+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:05.106+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:54:05.109+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:54:05.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:05.114+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:54:05.112+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:54:05.114+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:05.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.040 seconds
+[2025-03-29T10:54:12.164+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:12.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:54:12.165+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:54:12.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:12.170+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:54:12.169+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.operators.mysql'
+[2025-03-29T10:54:12.170+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:12.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.032 seconds
+[2025-03-29T10:54:42.489+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:42.490+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:54:42.494+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:54:42.493+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:42.499+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:54:42.498+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.operators.mysql'
+[2025-03-29T10:54:42.500+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:42.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.038 seconds
+[2025-03-29T10:54:50.581+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:50.582+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:54:50.585+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:54:50.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:50.592+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:54:50.591+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:54:50.593+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:54:50.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.035 seconds
+[2025-03-29T10:55:20.861+0000] {processor.py:186} INFO - Started process (PID=198) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:55:20.862+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:55:20.866+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:55:20.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:55:20.872+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:55:20.870+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:55:20.872+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:55:20.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.037 seconds
+[2025-03-29T10:55:51.123+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:55:51.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:55:51.126+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:55:51.126+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:55:51.131+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:55:51.129+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:55:51.131+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:55:51.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.030 seconds
+[2025-03-29T10:56:21.402+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:56:21.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:56:21.406+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:56:21.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:56:21.421+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:56:21.419+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:56:21.421+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:56:21.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.068 seconds
+[2025-03-29T10:56:51.719+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:56:51.722+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:56:51.725+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:56:51.725+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:56:51.732+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:56:51.731+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:56:51.733+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:56:51.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.052 seconds
+[2025-03-29T10:57:22.051+0000] {processor.py:186} INFO - Started process (PID=218) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:57:22.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:57:22.053+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:57:22.053+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:57:22.059+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:57:22.057+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:57:22.059+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:57:22.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.028 seconds
+[2025-03-29T10:57:52.381+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:57:52.382+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:57:52.388+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:57:52.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:57:52.395+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:57:52.393+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:57:52.396+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:57:52.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.059 seconds
+[2025-03-29T10:58:22.690+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:58:22.691+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:58:22.712+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:58:22.710+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:58:22.719+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:58:22.718+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:58:22.720+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:58:22.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.055 seconds
+[2025-03-29T10:58:53.100+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:58:53.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T10:58:53.106+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:58:53.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:58:53.115+0000] {logging_mixin.py:190} INFO - [2025-03-29T10:58:53.113+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T10:58:53.115+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T10:58:53.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.048 seconds
+[2025-03-29T16:53:24.511+0000] {processor.py:186} INFO - Started process (PID=173) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:53:24.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:53:24.514+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:53:24.514+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:53:24.517+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:53:24.516+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:53:24.518+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:53:24.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.026 seconds
+[2025-03-29T16:55:26.607+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:55:26.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:55:26.611+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:55:26.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:55:26.619+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:55:26.614+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:55:26.620+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:55:26.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.038 seconds
+[2025-03-29T16:55:57.020+0000] {processor.py:186} INFO - Started process (PID=476) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:55:57.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:55:57.025+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:55:57.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:55:57.034+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:55:57.032+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:55:57.036+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:55:57.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.052 seconds
+[2025-03-29T16:56:27.556+0000] {processor.py:186} INFO - Started process (PID=772) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:56:27.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:56:27.562+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:56:27.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:56:27.567+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:56:27.565+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:56:27.567+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:56:27.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.039 seconds
+[2025-03-29T16:56:57.828+0000] {processor.py:186} INFO - Started process (PID=1068) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:56:57.830+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:56:57.834+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:56:57.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:56:57.840+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:56:57.839+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:56:57.841+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:56:57.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.035 seconds
+[2025-03-29T16:57:28.661+0000] {processor.py:186} INFO - Started process (PID=1364) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:57:28.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:57:28.669+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:57:28.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:57:28.679+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:57:28.674+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:57:28.679+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:57:28.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.053 seconds
+[2025-03-29T16:57:59.671+0000] {processor.py:186} INFO - Started process (PID=1660) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:57:59.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:57:59.678+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:57:59.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:57:59.687+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:57:59.685+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:57:59.688+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:57:59.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.042 seconds
+[2025-03-29T16:58:30.503+0000] {processor.py:186} INFO - Started process (PID=1956) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:58:30.505+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:58:30.510+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:58:30.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:58:30.519+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:58:30.517+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:58:30.521+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:58:30.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.049 seconds
+[2025-03-29T16:59:00.635+0000] {processor.py:186} INFO - Started process (PID=2252) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:59:00.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:59:00.639+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:59:00.639+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:59:00.649+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:59:00.646+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:59:00.649+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:59:00.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.045 seconds
+[2025-03-29T16:59:30.864+0000] {processor.py:186} INFO - Started process (PID=2554) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:59:30.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T16:59:30.870+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:59:30.869+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:59:30.877+0000] {logging_mixin.py:190} INFO - [2025-03-29T16:59:30.876+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T16:59:30.878+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T16:59:30.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.042 seconds
+[2025-03-29T17:00:00.986+0000] {processor.py:186} INFO - Started process (PID=2850) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:00:00.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:00:00.991+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:00:00.990+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:00:01.001+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:00:00.999+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:00:01.002+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:00:01.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.041 seconds
+[2025-03-29T17:00:31.824+0000] {processor.py:186} INFO - Started process (PID=3146) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:00:31.826+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:00:31.831+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:00:31.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:00:31.839+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:00:31.837+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:00:31.841+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:00:31.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.058 seconds
+[2025-03-29T17:01:01.951+0000] {processor.py:186} INFO - Started process (PID=3442) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:01:01.952+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:01:01.956+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:01:01.956+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:01:01.970+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:01:01.968+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:01:01.970+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:01:01.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.046 seconds
+[2025-03-29T17:01:32.307+0000] {processor.py:186} INFO - Started process (PID=3738) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:01:32.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:01:32.311+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:01:32.311+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:01:32.317+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:01:32.315+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:01:32.317+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:01:32.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.034 seconds
+[2025-03-29T17:02:03.102+0000] {processor.py:186} INFO - Started process (PID=4034) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:02:03.103+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:02:03.106+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:02:03.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:02:03.113+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:02:03.112+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:02:03.116+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:02:03.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.041 seconds
+[2025-03-29T17:02:33.345+0000] {processor.py:186} INFO - Started process (PID=4330) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:02:33.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:02:33.351+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:02:33.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:02:33.363+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:02:33.361+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:02:33.364+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:02:33.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.048 seconds
+[2025-03-29T17:03:04.055+0000] {processor.py:186} INFO - Started process (PID=4626) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:03:04.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:03:04.059+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:03:04.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:03:04.064+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:03:04.062+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:03:04.064+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:03:04.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.032 seconds
+[2025-03-29T17:03:34.955+0000] {processor.py:186} INFO - Started process (PID=4922) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:03:34.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:03:34.960+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:03:34.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:03:34.971+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:03:34.969+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:03:34.971+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:03:34.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.043 seconds
+[2025-03-29T17:04:05.820+0000] {processor.py:186} INFO - Started process (PID=5218) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:04:05.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:04:05.824+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:04:05.824+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:04:05.831+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:04:05.828+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:04:05.832+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:04:05.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.036 seconds
+[2025-03-29T17:04:36.440+0000] {processor.py:186} INFO - Started process (PID=5514) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:04:36.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:04:36.445+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:04:36.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:04:36.451+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:04:36.450+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:04:36.451+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:04:36.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.033 seconds
+[2025-03-29T17:05:07.116+0000] {processor.py:186} INFO - Started process (PID=5810) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:05:07.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:05:07.121+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:05:07.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:05:07.128+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:05:07.126+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:05:07.129+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:05:07.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.040 seconds
+[2025-03-29T17:05:37.283+0000] {processor.py:186} INFO - Started process (PID=6106) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:05:37.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:05:37.286+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:05:37.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:05:37.292+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:05:37.289+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:05:37.292+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:05:37.310+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.035 seconds
+[2025-03-29T17:06:08.247+0000] {processor.py:186} INFO - Started process (PID=6402) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:06:08.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:06:08.250+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:06:08.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:06:08.257+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:06:08.254+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:06:08.258+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:06:08.274+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.034 seconds
+[2025-03-29T17:06:39.335+0000] {processor.py:186} INFO - Started process (PID=6698) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:06:39.348+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:06:39.359+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:06:39.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:06:39.369+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:06:39.366+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:06:39.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:06:39.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.094 seconds
+[2025-03-29T17:10:40.936+0000] {processor.py:186} INFO - Started process (PID=6994) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:10:40.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:10:40.938+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:10:40.938+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:10:40.941+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:10:40.940+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:10:40.941+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:10:40.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.024 seconds
+[2025-03-29T17:33:13.978+0000] {processor.py:186} INFO - Started process (PID=7290) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:33:13.981+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:33:13.987+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:33:13.986+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:33:13.997+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:33:13.995+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:33:13.997+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:33:14.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.060 seconds
+[2025-03-29T17:33:44.871+0000] {processor.py:186} INFO - Started process (PID=7586) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:33:44.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:33:44.876+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:33:44.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:33:44.884+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:33:44.883+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:33:44.888+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:33:44.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.047 seconds
+[2025-03-29T17:34:15.146+0000] {processor.py:186} INFO - Started process (PID=7882) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:34:15.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:34:15.153+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:34:15.152+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:34:15.166+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:34:15.162+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:34:15.167+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:34:15.196+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.060 seconds
+[2025-03-29T17:34:45.503+0000] {processor.py:186} INFO - Started process (PID=8178) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:34:45.504+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:34:45.508+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:34:45.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:34:45.519+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:34:45.517+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:34:45.520+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:34:45.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.047 seconds
+[2025-03-29T17:35:16.202+0000] {processor.py:186} INFO - Started process (PID=8474) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:35:16.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:35:16.207+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:35:16.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:35:16.217+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:35:16.216+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:35:16.218+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:35:16.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.046 seconds
+[2025-03-29T17:35:46.554+0000] {processor.py:186} INFO - Started process (PID=8770) to work on /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:35:46.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/retail_pipeline.py for tasks to queue
+[2025-03-29T17:35:46.559+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:35:46.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:35:46.577+0000] {logging_mixin.py:190} INFO - [2025-03-29T17:35:46.572+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/retail_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/retail_pipeline.py", line 4, in <module>
+    from airflow.providers.mysql.operators.mysql import MySqlOperator
+ModuleNotFoundError: No module named 'airflow.providers.mysql.operators'
+[2025-03-29T17:35:46.578+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/retail_pipeline.py
+[2025-03-29T17:35:46.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/retail_pipeline.py took 0.064 seconds
