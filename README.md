@@ -27,23 +27,12 @@ The `-d` flag runs the containers in detached mode.
 Check if all required containers are running:
 ```sh
 docker ps
-```
-
+``` 
 ## 5. Access Running Services
 - **Airflow UI**: [http://localhost:8080](http://localhost:8080)  
-  - Username: `airflow`  
-  - Password: `airflow`  
-- **Jupyter Notebook**: [http://localhost:8888](http://localhost:8888)  
-- **MySQL Database**:  
-  - Host: `localhost`  
-  - Port: `3306`  
-  - Username: `root`  
-  - Password: `yourpassword`  
+- **Jupyter Notebook**: [http://localhost:8888](http://localhost:8888)
+  - In jupyter Notebook go to /home/jovyan/work folder and open notebook. 
 - **PostgreSQL Database**:  
-  - Host: `localhost`  
-  - Port: `5432`  
-  - Username: `postgres`  
-  - Password: `yourpassword`  
 
 ## 6. Stop and Remove Containers
 To stop the running containers:
